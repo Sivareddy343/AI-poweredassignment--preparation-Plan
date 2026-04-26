@@ -4,6 +4,10 @@ import dotenv from "dotenv";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 dotenv.config();
+app.get("/", (req, res) => {
+  res.send("Backend is running 🚀");
+});
+
 
 const app = express();
 app.use(cors());
