@@ -17,7 +17,7 @@ function ChatPage() {
   useEffect(() => {
     if (!analysis) return;
 
-    fetch("http://localhost:5000/questions", {
+    fetch("https://ai-poweredassignment-preparationplan.onrender.com/questions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -68,7 +68,7 @@ function ChatPage() {
   };
   const evaluateAnswers = async (answersData) => {
     try {
-      const res = await fetch("http://localhost:5000/evaluate", {
+      const res = await fetch("https://ai-poweredassignment-preparationplan.onrender.com/evaluate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -88,7 +88,7 @@ function ChatPage() {
 
       setEvaluation(data);
 
-      const planRes = await fetch("http://localhost:5000/plan", {
+      const planRes = await fetch("https://ai-poweredassignment-preparationplan.onrender.com/plan", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

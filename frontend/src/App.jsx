@@ -13,7 +13,7 @@ function App() {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/analyze", {
+      const res = await fetch("https://ai-poweredassignment-preparationplan.onrender.com/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
