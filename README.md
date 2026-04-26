@@ -46,10 +46,19 @@ npm run dev
 * `/questions`
 * `/evaluate`
 * `/plan`
+## Inputs
+**job Description -
+We are looking for a Junior Python Developer.
 
+Requirements:
+- Basic knowledge of Python (loops, functions, OOP)
+- Understanding of SQL queries (SELECT, JOIN)
+- Problem-solving skills
+**Resume -
+  
 ## Demo
 
-Add your demo video link here
+https://drive.google.com/file/d/1CWgFBh3eqSCb2qGeh7suYoL-G7L0A8gO/view?usp=drivesdk
 
 ## Live
 
