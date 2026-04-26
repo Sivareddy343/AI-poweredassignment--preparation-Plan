@@ -45,7 +45,7 @@ Return ONLY JSON:
 }
 `;
 
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite" });
 
     const result = await model.generateContent(prompt);
     const response = await result.response;
@@ -96,7 +96,7 @@ Return ONLY JSON:
 Output must start with { and end with }
 `;
 
-    const model = genAI.getGenerativeModel({model: "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({model: "gemini-2.5-flash-lite" });
 
     const result = await model.generateContent(prompt);
     const response = await result.response;
@@ -151,7 +151,7 @@ Output must start with { and end with }
 `;
 
     const model = genAI.getGenerativeModel({
-      model: "gemini-2.5-flash"
+      model: "gemini-2.5-flash-lite"
     });
 
     const result = await model.generateContent(prompt);
@@ -203,7 +203,7 @@ Return JSON:
 }
 `;
 
-    const model = genAI.getGenerativeModel({model: "gemini-2.5-flash"});
+    const model = genAI.getGenerativeModel({model: "gemini-2.5-flash-lite"});
 
     const result = await model.generateContent(prompt);
     const response = await result.response;
