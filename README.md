@@ -54,13 +54,25 @@ Requirements:
 - Basic knowledge of Python (loops, functions, OOP)
 - Understanding of SQL queries (SELECT, JOIN)
 - Problem-solving skills
+- 
 **Resume -
+Name: Siva Reddy
+
+Skills:
+- Python (basic)
+- HTML, CSS
+
+Projects:
+- Built a calculator using Python
+
+Experience:
+- Beginner programmer
   
-## Demo
+## Demo Video Link
 
 https://drive.google.com/file/d/1CWgFBh3eqSCb2qGeh7suYoL-G7L0A8gO/view?usp=drivesdk
 
-## Live
+## Live Website Link
 
 https://ai-poweredassignment-preparation-pl.vercel.app/
 
