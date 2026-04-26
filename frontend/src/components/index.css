@@ -1,0 +1,12 @@
+.app-container2{
+  background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926");
+  font-family: "Arial" ;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  align-content: center;
+  padding-left: 50px;
+  color: white;
+  border-radius: 2px;
+  
+} 

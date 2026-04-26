@@ -1,0 +1,24 @@
+.app-container {
+  background-image: url("https://images.unsplash.com/photo-1677442136019-21780ecad995");
+  font-family: "Arial" ;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  align-content: center;
+  padding-left: 50px;
+  color: white;
+  border-radius: 2px;
+  
+  
+}
+
+.buttoncontainer{
+  margin-left: 500px;
+}
+.button{
+  color: white;
+  background-color: aqua;
+  height: 50px;
+  width: 100px;
+
+}
